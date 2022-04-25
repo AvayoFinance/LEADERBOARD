@@ -7,11 +7,11 @@ import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Fade from "@mui/material/Fade";
-import {useContractContext} from "/Users/Ivan_Abicic/Desktop/MedusaFinance/AVAYO_DASHBOARD/src/components/account/ContractProvider.js";
+import {useContractContext} from "./account/ContractProvider.js";
 import { useState } from "react";
 import { useEffect } from "react";
-import  { useAuthContext} from "/Users/Ivan_Abicic/Desktop/MedusaFinance/AVAYO_DASHBOARD/src/components/account/AuthProvider.js";
-import {config} from "/Users/Ivan_Abicic/Desktop/MedusaFinance/AVAYO_DASHBOARD/src/helpers/config.js";
+import  { useAuthContext} from "./account/AuthProvider.js";
+import {config} from "../helpers/config.js";
 import Web3 from "web3";
 import { useLocation } from "react-router-dom";
 function useQuery() {

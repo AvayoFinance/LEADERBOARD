@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import Web3 from "web3";
 
-import abi from "/Users/Ivan_Abicic/Desktop/MedusaFinance/AVAYO_DASHBOARD/src/components/shared/abi.json"
+import abi from "../shared/abi.json"
 import { useAuthContext } from "./AuthProvider";
 import { config } from "../../helpers/config";
 
