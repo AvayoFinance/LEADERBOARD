@@ -115,6 +115,8 @@ export default function Dashboard(props) {
 
   useEffect(() => {
     fetchReferrals();
+    const interval = setInterval(fetchReferrals, 30000);
+    return () => clearInterval(interval);
   }, []);
 
   const onUpdateBakeBNB = (value) => {
